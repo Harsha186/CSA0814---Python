@@ -1,0 +1,6 @@
+def second_largest(numbers):
+    sorted_numbers = sorted(numbers)
+    return sorted_numbers[-2]
+
+my_list = [10, 5, 20, 15]
+print("Second largest number:", second_largest(my_list))
