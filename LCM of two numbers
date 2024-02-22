@@ -1,0 +1,10 @@
+import math
+
+def lcm_of_two_numbers(num1, num2):
+    return math.lcm(num1, num2)
+
+# Example usage:
+num1 = 12
+num2 = 18
+lcm = lcm_of_two_numbers(num1, num2)
+print("LCM of", num1, "and", num2, "is:", lcm)
